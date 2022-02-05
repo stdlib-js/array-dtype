@@ -40,8 +40,26 @@ limitations under the License.
 
 ## Usage
 
+To use in Observable,
+
 ```javascript
-var dtype = require( '@stdlib/array-dtype' );
+dtype = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-dtype@umd/bundle.js' )
+```
+
+To include the bundle in a webpage,
+
+```html
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-dtype@umd/bundle.js"></script>
+```
+
+If no recognized module system is present, access bundle contents via the global scope:
+
+```html
+<script type="text/javascript">
+(function () {
+    window.dtype;
+})()
+</script>
 ```
 
 #### dtype( array )
@@ -85,10 +103,15 @@ var dt = dtype( 'beep' );
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var dtypes = require( '@stdlib/array-dtypes' );
-var ctors = require( '@stdlib/array-ctors' );
-var dtype = require( '@stdlib/array-dtype' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-dtypes@umd/bundle.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-ctors@umd/bundle.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-dtype@umd/bundle.js"></script>
+<script type="text/javascript">
+(function () {
 
 var DTYPES;
 var ctor;
@@ -110,6 +133,11 @@ for ( i = 0; i < DTYPES.length; i++ ) {
     dt = dtype( arr );
     console.log( '%s == %s => %s', DTYPES[ i ], dt, DTYPES[ i ] === dt );
 }
+
+})()
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -190,6 +218,13 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 
 -->
 
+[umd]: https://github.com/umdjs/umd
+[es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
+
+[deno-url]: https://github.com/stdlib-js/array-dtype/tree/deno
+[umd-url]: https://github.com/stdlib-js/array-dtype/tree/umd
+[esm-url]: https://github.com/stdlib-js/array-dtype/tree/esm
+
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
 
@@ -201,7 +236,7 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/array/dtypes]: https://github.com/stdlib-js/array-dtypes
+[@stdlib/array/dtypes]: https://github.com/stdlib-js/array-dtypes/tree/umd
 
 <!-- </related-links> -->
 
