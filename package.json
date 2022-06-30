@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/array-dtype",
-  "version": "0.0.0",
+  "version": "0.0.6",
   "description": "Return the data type of an array.",
   "license": "Apache-2.0",
   "author": {
