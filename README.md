@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import dtype from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-dtype@esm/index.mjs';
+import dtype from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-dtype@v0.1.0-esm/index.mjs';
 ```
 
 #### dtype( array )
@@ -104,7 +104,7 @@ var dt = dtype( 'beep' );
 
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-dtypes@esm/index.mjs';
 import ctors from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-ctors@esm/index.mjs';
-import dtype from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-dtype@esm/index.mjs';
+import dtype from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-dtype@v0.1.0-esm/index.mjs';
 
 var DTYPES;
 var ctor;
