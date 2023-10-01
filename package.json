@@ -54,7 +54,7 @@
     "@stdlib/utils-constructor-name": "^0.1.0"
   },
   "devDependencies": {
-    "@stdlib/array-ctors": "^0.0.6",
+    "@stdlib/array-ctors": "^0.1.0",
     "@stdlib/array-dtypes": "^0.1.0",
     "@stdlib/assert-is-string": "^0.1.0",
     "@stdlib/bench": "^0.1.0",
