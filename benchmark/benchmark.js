@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var bench = require( '@stdlib/bench' );
+var bench = require( '@stdlib/bench-harness' );
 var dtypes = require( '@stdlib/array-dtypes' );
 var ctors = require( '@stdlib/array-ctors' );
 var isString = require( '@stdlib/assert-is-string' ).isPrimitive;
