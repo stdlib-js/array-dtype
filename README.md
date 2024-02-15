@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import dtype from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-dtype@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-dtype/tags). For example,
+
+```javascript
 import dtype from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-dtype@v0.2.0-deno/mod.js';
 ```
 
@@ -99,7 +104,7 @@ var dt = dtype( 'beep' );
 ```javascript
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-dtypes@deno/mod.js';
 import ctors from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-ctors@deno/mod.js';
-import dtype from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-dtype@v0.2.0-deno/mod.js';
+import dtype from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-dtype@deno/mod.js';
 
 var DTYPES;
 var ctor;
