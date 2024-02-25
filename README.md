@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import dtype from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-dtype@deno/mod.js';
+import dtype from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-dtype@v0.2.1-deno/mod.js';
 ```
 
 #### dtype( array )
@@ -99,7 +99,7 @@ var dt = dtype( 'beep' );
 ```javascript
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-dtypes@deno/mod.js';
 import ctors from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-ctors@deno/mod.js';
-import dtype from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-dtype@deno/mod.js';
+import dtype from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-dtype@v0.2.1-deno/mod.js';
 
 var DTYPES;
 var ctor;
