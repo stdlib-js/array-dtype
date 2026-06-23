@@ -2,6 +2,51 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-06-23)
+
+<section class="features">
+
+### Features
+
+-   [`6af7f0b`](https://github.com/stdlib-js/stdlib/commit/6af7f0b1b9e0e8d7f616de17e47d035a2ae1abfd) - add float16 datatype support in `array/dtype` [(#9808)](https://github.com/stdlib-js/stdlib/pull/9808)
+
+</section>
+
+<!-- /.features -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`6af7f0b`](https://github.com/stdlib-js/stdlib/commit/6af7f0b1b9e0e8d7f616de17e47d035a2ae1abfd) - **feat:** add float16 datatype support in `array/dtype` [(#9808)](https://github.com/stdlib-js/stdlib/pull/9808) _(by Gururaj Gurram, Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Gururaj Gurram
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.3.1">
 
 ## 0.3.1 (2026-02-08)
